@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta property="og:title" content="Xiomara - Mis XV Años 🦋" />
+    <meta property="og:description"
+        content="¡La cuenta regresiva ha comenzado! Descubre los detalles y confirma tu asistencia." />
+
+    <meta property="og:image"
+        content="https://lunofest.github.io/15Xiomara201225/assets/imagenes/miniatura.png" />
+    <meta property="og:url" content="https://lunofest.github.io/15Xiomara201225/" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image:type" content="image/png" />
+
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="estilos/normalize.css?v19">
+  <link rel="stylesheet" href="estilos/styles.css?v19">
+  <link rel="stylesheet" href="estilos/mediaQueries.css?v19">
+
+
+  <script src="cache.js"></script>
+  <script src="main.js"></script>
+
+  <title>Mis 15 años</title>
+</head>
+
+<body>
+
+
+  <header class="header">
+
+    <div class="header__principal">
+      <h1 class="header__name">Xiomara</h1>
+      <h3 class="header__subtitle">¡MIS XV AÑOS!</h3>
+      <div class="header__temporizador">
+        <div class="contador">
+          <div class="contador__tiempo">
+            <div>
+              <span class="span__numero" id="dias">00</span>
+              <span class="span__text">días</span>
+            </div>
+            <div>
+              <span class="span__numero" id="horas">00</span>
+              <span class="span__text">horas</span>
+            </div>
+            <div>
+              <span class="span__numero" id="minutos">00</span>
+              <span class="span__text">min</span>
+            </div>
+            <div>
+              <span class="span__numero" id="segundos">00</span>
+              <span class="span__text">seg</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="musica">
+      <audio src="assets/musica.mp3"></audio>
+      <button class="musica__button musica__button--play">
+        <span class="musica__icon musica__icon--play">▶</span>
+        <span class="musica__icon musica__icon--pause">||</span>
+      </button>
+    </div>
+
+    <div class="arrow-container">
+      <div class="arrow"></div>
+    </div>
+    <img class="header__wave" src="assets/vectores/wave.svg" alt="">
+  </header>
+
+  <main>
+
+    <video src="assets/body.mp4" class="video" autoplay loop muted></video>
+
+    <section class="bloque frase">
+
+      <h3 class="frase_paragraph">"Hay momentos inolvidables que se guardan en el corazón por siempre, por esa razón
+        quiero que compartas conmigo este día tan especial..." <br> <b>Xiomara</b> </h3>
+
+    </section>
+
+    <section class="donde">
+
+      
+      <!-- <article class="donde__content">
+
+        <img class="donde__icon" src="assets/vectores/ubicacionICON.svg" alt="">
+
+        <img class="donde__img" src="assets/imagenes/iglesia.webp" alt="">
+
+        <div class="donde__texts">
+          <h4 class="donde__text donde__name">Catedral de Nuestra Señora de la Encarnación</h4>
+          
+          <h4 class="donde__text donde__direccion">Av. 24 de Septiembre 420, San Miguel de Tucumán</h4>
+          <h4 class="donde__text donde__direccion">04 de Julio del 2026</h4>
+          <h4 class="donde__text donde__hora">20:30hs</h4>
+        </div>
+
+        <a class="boton__cta" href="https://maps.app.goo.gl/52E5AttAjaVRdzcbA">VER UBICACION</a>
+
+      </article> -->
+
+      <article class="donde__content">
+
+        <img class="donde__icon" src="assets/vectores/ubicacionICON.svg" alt="">
+
+        <img class="donde__img" src="assets/imagenes/salon.webp" alt="">
+
+        <div class="donde__texts">
+          <h4 class="donde__text donde__name">Salón Keké</h4>
+          <h4 class="donde__text donde__direccion">Pje. Elvira Imbaud y Jorge Luis Borges, Yerba Buena, Tucumán</h4>
+          <h4 class="donde__text donde__direccion">20 de Diciembre del 2025</h4>
+          <h4 class="donde__text donde__hora">22:00hs</h4>
+        </div>
+
+        <a class="boton__cta" href="https://maps.app.goo.gl/5jYB5wWASLwv7FUD8">VER UBICACION</a>
+
+      </article>
+
+
+
+    </section>
+
+    <section class="agradecimiento block glow contenedor" data-aos="fade-up">
+
+      <div class="agradecimiento__contenedor">
+        <p class="parrafo parrafo--agradecimiento">
+       "Deseo desde mi corazón agradecerles eternamente a mis padres y todos aquellos familiares que me ayudaron a
+          que mis 15 tan anhelados sea realidad y destacar su valioso sacrificio, que su apoyo
+          fue fundamental para realizar este día tan importante y significativo en mi vida"
+        </p>
+
+        <!-- ---- padres ----- -->
+        <div class="agradecimiento__container">
+          <h4 class="agradecimiento__title">Mis Padres</h4>
+          <div class="agradecimiento__fotos" data-aos="fade-right">
+
+            <div class="agradecimiento__picture">
+
+              <!-- <img class="agradecimiento__img" src="assets/imagenes/papaNovio.webp" alt=""> -->
+              <h5 class="agradecimiento__name">Gonzalo y Sofia</h5>
+            </div>
+
+            <!-- <div class="agradecimiento__picture">
+              
+              <h5 class="agradecimiento__name">Noelia Fuenzalida</h5>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- ---- padrinos ----- -->
+
+        <!-- <div class="agradecimiento__container">
+          <h4 class="agradecimiento__title agradecimiento__title--active">Mis Padrinos</h4>
+          <div class="agradecimiento__fotos" data-aos="fade-left">
+
+            <div class="agradecimiento__picture">
+
+          
+              <h5 class="agradecimiento__name">Raul Sir</h5>
+            </div>
+
+            <div class="agradecimiento__picture">
+              
+              <h5 class="agradecimiento__name">Macarena Rios</h5>
+            </div>
+          </div>
+        </div> -->
+      </div>
+
+
+    </section>
+
+    <section class="playlist">
+      <img class="playlist__icon" src="assets/vectores/playlistICON.svg" alt="">
+      <h4 class="playlist__title">¿Qué canciones no pueden faltar?</h4>
+      <h5 class="playlist__paragraph">¡Ayúdame sugiriendo las canciones que pensás que no pueden faltar en mi cumple!
+      </h5>
+
+      <div class="playlist__inputs">
+        <input class="playlist__input" type="text" id="nombre" placeholder="Tu nombre*" required>
+        <input class="playlist__input" type="text" id="cancion" placeholder="Nombre de la canción*" required>
+        <input class="playlist__input" type="text" id="link" placeholder="(opcional) link de YouTube, Spotify, etc">
+        <button class="boton__cta" id="playlistbtn">ENVIAR RECOMENDACION</button>
+        <p id="error-mensaje" class="error-message"></p>
+      </div>
+    </section>
+
+    <section class="dresscode">
+      <img class="dresscode__img" src="assets/vectores/dresscodeICON.svg" alt="">
+      <h4 class="dresscode__title">Código de vestimenta</h4>
+      <h4 class="dresscode__subtitle">Se reserva el color Lila para la Quinceañera</h4>
+      <h4 class="dresscode__aviso">ELEGANTE </h4>
+      <button class="dresscode__ejemplo">VER EJEMPLO</button>
+      <div class="lightbox" id="lightbox">
+        <img class="lightbox__imagen" src="assets/imagenes/drescodeELEGANTE.webp" alt="Imagen de ejemplo">
+        <button class="lightbox__cerrar">Cerrar</button>
+      </div>
+
+    </section>
+
+    <section class="regalos">
+
+      <img class="regalos__icon" src="assets/vectores/regalosICON.svg" alt="">
+      <h4 class="regalos__title">Mesa de regalos</h4>
+      <h4 class="regalos__parrafo">Tu presencia es mi mejor regalo, pero si querés hacerme un presente, podes hacerlo a
+        mi cuenta bancaria</h4>
+
+
+      <button class="regalos__button">VER DATOS BANCARIOS</button>
+      <div class="datos" id="datos">
+        <div class="line"></div>
+        <!-- <h5 class="datos__title">CBU</h5>
+        <h5 class="datos__cbu">00000000000000000</h5>
+        <button class="datos__copiar" data-copy-target=".datos__cbu">
+          <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="Copiar">
+          COPIAR CBU</button> -->
+
+         <h5 class="datos__title">ALIAS</h5>
+        <h5 class="datos__alias">xio.palacioxd</h5>
+        <button class="datos__copiar" data-copy-target=".datos__alias">
+          <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="Copiar">
+          COPIAR ALIAS</button> 
+
+        <div class="line"></div>
+      </div>
+
+      <div class="mensaje-copiado" id="mensajeCopiado">
+        <i class="fas fa-check-circle"></i> Copiado exitosamente
+      </div>
+
+
+
+
+      <img class="regalos__wave1" src="assets/vectores/wave.svg" alt="">
+      <img class="regalos__wave2" src="assets/vectores/wave.svg" alt="">
+    </section>
+
+
+
+<section class="album contenedor block glow" data-aos="flip-left">
+
+            <div class="album__container" id="albumDigital">
+                <h3 class="title title--album">Mi álbum compartido</h3>
+                <img class="album__img" src="assets/imagenes/album.webp" id="album" alt="">
+                <h3 class="parrafo parrafo--album">
+                    Quiero inmortalizar este maravilloso momento, guardando fotos y para ello tengo mi álbum
+                    digital <br> <br>
+                    <a class="boton__cta boton__cta4" href="https://photos.app.goo.gl/MMbsJjgeqrL3q5u78">Compartir fotos</a> <br>
+                 
+                </h3>
+
+                <h3 class="parrafo parrafo2">   Ó podés compartir tus fotos y videos de la fiesta en instagram y etiquétame</h3>
+
+                <a class=" boton__cta album__insta" href="https://www.instagram.com/xiom_177/?utm_source=ig_web_button_share_sheet">
+                    <img class="album__icon" src="assets/vectores/insta.svg" alt="">@xiom_177</a>
+
+                <!-- ----- hastag ------- -->
+
+                <!-- <h4 class="parrafo parrafo__hashtag">#AquiHashtag</h4> -->
+
+            </div>
+
+
+        </section>
+
+
+
+    <section class="confirmacion contenedor block glow" id="correo" data-aos="fade-up">
+      <div class="confirmacion__container">
+        <h4 class="parrafo parrafo--confirmacion" data-aos="fade-right">
+          Recordá que tenes hasta el día 05 de Diciembre del 2025 para confirmar tu
+          presencia <br>
+        </h4>
+        <div id="asistencia">
+          <div class="asistencia__radios">
+            <label class="asistencia__radio">
+              <input class="assistencia_" type="radio" name="attendanceOption" value="SI ASISTIRÉ"> SI
+              ASISTIRÉ
+            </label>
+            <label class="asistencia__radio">
+              <input class="assistencia_" type="radio" name="attendanceOption" value="NO ASISTIRÉ"> NO
+              ASISTIRÉ
+            </label>
+          </div>
+          <br>
+          <div class="asistencia__datos">
+            <label class="asistencia__label" for="userFullName">Nombre y Apellido:</label>
+            <input class="input__text" type="text" id="userFullName" placeholder="Tu nombre y apellido" required>
+            <br>
+            <label class="asistencia__label asistencia__label2" for="customMessage">Mensaje:</label>
+            <textarea class="input__text input__text2" id="customMessage" placeholder="Mensaje opcional"></textarea>
+            <br>
+            <button class="boton__cta3" id="botoncito1">
+              <img class="whatsapp__icon" src="assets/vectores/whatsapp_redondo.svg" alt="">Confirmar
+              asistencia</button>
+            <button class="boton__cta3" id="botoncito2"><img class="whatsapp__icon"
+                src="assets/vectores/whatsapp_redondo.svg" alt="">Enviar mensaje</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="fraseFinal">
+      <div class="comillas">
+        <img class="fraseFinal__img fraseFinal__img2" src="assets/vectores/apostrofe.svg" alt="">
+      </div>
+      
+      <h5 class="fraseFinal__text">Los momentos felices de la vida se vuelven más maravillosos aun cuando tenemos la suerte de compartirlos con familiares y amigos más queridos... <br> Te espero!</h5>
+        <div class="comillas2">
+          <img class="fraseFinal__img" src="assets/vectores/apostrofe.svg" alt="">
+        </div>
+     
+    </section>
+
+
+
+  </main>
+
+
+  <footer class="footer">
+
+    <h6 class="info__text">
+      Página creada por "Luno Digitales" para los 15 de Xiomara - 2025 &copy todos los derechos reservados
+      - <br>
+      <a class="info__link" href="https://www.luno.net.ar/">
+        www.luno.net.ar
+      </a>
+    </h6>
+
+  </footer>
+
+
+
+
+
+
+  <script src="scripts/scripts.js?v19"></script>
+</body>
+
+</html>
